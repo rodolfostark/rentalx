@@ -17,13 +17,13 @@ Rentalx is a Backend Node.js project designed for educational purposes to help u
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/Rentalx.git
+    git clone https://github.com/your-username/rentalx.git
     ```
 
 2. Install dependencies:
 
     ```bash
-    cd Rentalx
+    cd rentalx
     yarn
     ```
 
@@ -50,7 +50,7 @@ Rentalx is a Backend Node.js project designed for educational purposes to help u
 
 ## SOLID Principles
 
-RentalX is designed following the SOLID principles to demonstrate good software design practices:
+rentalx is designed following the SOLID principles to demonstrate good software design practices:
 
 -   **Single Responsibility Principle (SRP)**: Each module and class has a single responsibility.
 -   **Open/Closed Principle (OCP)**: The code is open for extension but closed for modification.
@@ -68,4 +68,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to explore the codebase, experiment with the SOLID principles, and contribute to the learning experience. If you encounter any issues or have suggestions, please open an [issue](https://github.com/your-username/Rentalx/issues).
+Feel free to explore the codebase, experiment with the SOLID principles, and contribute to the learning experience. If you encounter any issues or have suggestions, please open an [issue](https://github.com/your-username/rentalx/issues).
