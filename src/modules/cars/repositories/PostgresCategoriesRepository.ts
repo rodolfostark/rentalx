@@ -10,6 +10,7 @@ class PostegresCategoriesRepository implements ICategoriesRepository {
         return null;
     }
     list(): Category[] {
+        console.log("listou");
         return null;
     }
     create({ name, description }: ICreateCategoryDTO): void {

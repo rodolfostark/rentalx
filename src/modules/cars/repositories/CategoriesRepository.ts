@@ -11,7 +11,6 @@ class CategoriesRepository implements ICategoriesRepository {
         this.categories = [];
     }
 
-    // DTO => Data Tranfer Object
     create({ name, description }: ICreateCategoryDTO): void {
         const category = new Category();
         Object.assign(category, {
