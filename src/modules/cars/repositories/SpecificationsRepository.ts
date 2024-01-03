@@ -9,8 +9,20 @@ class SpecificationsRepository implements ISpecificationsRepository {
     constructor() {
         this.specifications = [];
     }
+    findByName(name: string): Specification {
+        const specification = this.specifications.find(
+            (specification) => specification.name === name,
+        );
+        return specification;
+    }
     create({ name, description }: ICreateSpecificationsDTO): void {
         const specification = new Specification();
+        const specificationAlreadyExists = this.findByName(specification.name);
+
+        if (specificationAlreadyExists) {
+            throw new Error("Specification already exists!");
+        }
+
         Object.assign(specification, {
             name,
             description,
